@@ -4,8 +4,6 @@ Supporting research scripts associated with the manuscript:
 
 **Bounded Keypose Error Propagation: An Input-Output Operator Gain and Robustness Analysis of Sign Motion Generators**
 
-Publication status: manuscript; no journal acceptance is claimed here.
-
 ## Release status
 
 This README describes the supplied script collection, not a validated full reproduction release. The collection does not currently include the complete training and evaluation pipeline for the four neural refiner architectures described in the manuscript, pretrained checkpoints, or the underlying per-window experiment logs. The full numerical results in the manuscript cannot presently be independently regenerated from this collection alone.
