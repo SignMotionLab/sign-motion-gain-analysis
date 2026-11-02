@@ -1,0 +1,8 @@
+# Third-party imports visible in the supplied scripts.
+# Versions are unpinned: no validated environment was supplied.
+# This file does not provide missing local modules or external datasets.
+numpy
+scipy
+matplotlib
+opencv-python
+torch
