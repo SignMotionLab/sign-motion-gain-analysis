@@ -4,8 +4,6 @@ Supporting research scripts associated with the manuscript:
 
 **Bounded Keypose Error Propagation: An Input-Output Operator Gain and Robustness Analysis of Sign Motion Generators**
 
-Qinkun Xiao, Liu Chenxin, Liu Peiran, Chen Wenyi, and Li Lu.
-
 Publication status: manuscript; no journal acceptance is claimed here.
 
 ## Release status
@@ -84,7 +82,7 @@ Pretrained checkpoints for the manuscript's four refiner architectures are not i
 
 ## Citation
 
-Until a public preprint or accepted publication is available, refer to the manuscript title and authors above. No DOI or final publication venue has been assigned in this README.
+Until a public preprint or accepted publication is available, refer to the manuscript title above. No DOI or final publication venue has been assigned in this README.
 
 ## License
 
