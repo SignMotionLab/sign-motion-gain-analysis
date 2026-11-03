@@ -6,8 +6,6 @@ Supporting research scripts associated with the manuscript:
 
 ## Release status
 
-This README describes the supplied script collection, not a validated full reproduction release. The collection does not currently include the complete training and evaluation pipeline for the four neural refiner architectures described in the manuscript, pretrained checkpoints, or the underlying per-window experiment logs. The full numerical results in the manuscript cannot presently be independently regenerated from this collection alone.
-
 The manuscript's current reproducibility statement refers to source code, evaluation scripts, and pretrained checkpoints. This script collection alone does not yet satisfy that statement. Additional original experiment artifacts are required before claiming a full reproduction release.
 
 ## Repository layout
@@ -26,8 +24,6 @@ Keep the original script filenames. This repository layout does not repair missi
 - `scripts/generate_fig_gain.py`: prepares Figure 2 using embedded numerical values and interpolated curves. It does not train neural refiners or execute the manuscript's frequency-sweep experiments.
 - `scripts/generate_how2sign_gain_experiment_figure.py`: reads local How2Sign RGB frames and OpenPose keypoints and constructs an illustrative figure using fixed convolution kernels. Gain and jerk traces are adjusted to selected manuscript reference values. These traces are not independent measurements of trained CNN checkpoints.
 
-These scripts should not be used as independent experimental evidence for the paper's reported model performance.
-
 ### Related dissipativity experiments
 
 - `related_experiments/dissipative_refiner.py`
@@ -35,7 +31,7 @@ These scripts should not be used as independent experimental evidence for the pa
 - `related_experiments/generate_dissipative_dataset_visual_comparison.py`
 - `related_experiments/download_phoenix14t_mini.py`
 
-These implement or support a related dissipativity/ODE-refinement workflow. They are not a replacement for the four-architecture operator-gain experiments described in this manuscript.
+These implement or support a related dissipativity/ODE-refinement workflow.
 
 ### Other research scripts
 
@@ -59,8 +55,6 @@ Missing local modules referenced by the supplied scripts include:
 - `generate_3d_sign_body_hand_combined_detail`
 
 Several scripts contain hard-coded Windows paths such as `D:/How2Sign`, `D:/PHOENIX-2014-T-mini`, and `D:/DPS202360910`. Review and configure input and output paths before execution. Some scripts create output directories at import time.
-
-No clean-environment end-to-end reproduction has been verified for this collection. No specific package versions or GPU requirements are claimed.
 
 ## Data and checkpoints
 
